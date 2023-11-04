@@ -15,6 +15,7 @@ return [
     |
     */
 
+    //secara default koneksi database yang digunakan oleh laravel adalah apapun yang ada di dalam DB_CONNECTION, jika tidak ada akan memakai nilai mysql
     'default' => env('DB_CONNECTION', 'mysql'),
 
     /*

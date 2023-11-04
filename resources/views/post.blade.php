@@ -1,3 +1,4 @@
+//halaman ini mengambil atau menggunakan layouts/main.blade.php
 @extends('layouts.main')
 @section('container')
     <div class="container">

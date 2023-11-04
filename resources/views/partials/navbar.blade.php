@@ -7,6 +7,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
+            //cek menggunakan operator ternary
             <a class="nav-link {{ ($active === "home") ? 'active' : '' }}" href="/">Home</a>
           </li>
           <li class="nav-item">

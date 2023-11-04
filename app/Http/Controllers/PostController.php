@@ -9,6 +9,7 @@ use App\Models\User;
 
 class PostController extends Controller
 {
+    //buat method index sebagai method default
     public function index()
     {
         $title = '';

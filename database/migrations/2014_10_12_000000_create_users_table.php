@@ -9,6 +9,8 @@ return new class extends Migration
     /**
      * Run the migrations.
      */
+
+     //sebuah method yang akan digunakan ketika ingin membuat schema atau struktur dari tabel 
     public function up(): void
     {
         Schema::create('users', function (Blueprint $table) {
@@ -26,6 +28,7 @@ return new class extends Migration
     /**
      * Reverse the migrations.
      */
+    //untuk menghilangkan skema yang sdh dibuat
     public function down(): void
     {
         Schema::dropIfExists('users');
